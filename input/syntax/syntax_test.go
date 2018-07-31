@@ -8,8 +8,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/caixw/apidoc/types"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/types"
+	"github.com/tanxiaolong/apidoc/vars"
 	"github.com/issue9/assert"
 )
 

@@ -10,9 +10,9 @@ import (
 
 	"github.com/issue9/is"
 
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/types"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/types"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 // Input 由外界提供的与标签语法相关的内容。

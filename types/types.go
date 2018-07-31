@@ -6,8 +6,8 @@
 package types
 
 import (
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 // Sanitizer 配置项的检测接口

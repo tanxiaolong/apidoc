@@ -7,7 +7,7 @@ package syntax
 import (
 	"log"
 
-	"github.com/caixw/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/locale"
 )
 
 // OutputError 向日志通道输出一条语法错误信息

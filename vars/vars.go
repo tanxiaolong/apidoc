@@ -13,7 +13,7 @@ const (
 	Name = "apidoc"
 
 	// 源码仓库地址
-	RepoURL = "https://github.com/caixw/apidoc"
+	RepoURL = "https://github.com/tanxiaolong/apidoc"
 
 	// 官网
 	OfficialURL = "http://apidoc.tools"

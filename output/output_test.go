@@ -4,6 +4,6 @@
 
 package output
 
-import "github.com/caixw/apidoc/types"
+import "github.com/tanxiaolong/apidoc/types"
 
 var _ types.Sanitizer = &Options{}

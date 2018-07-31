@@ -9,7 +9,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/caixw/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/locale"
 )
 
 // 用于描述 block.Type 的值。

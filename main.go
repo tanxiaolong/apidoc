@@ -21,10 +21,11 @@ import (
 	"github.com/issue9/version"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/caixw/apidoc/input"
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/output"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/input"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/output"
+	"github.com/tanxiaolong/apidoc/vars"
+	"fmt"
 )
 
 // 日志信息输出
@@ -124,8 +125,8 @@ func run(wd string) {
 		erro.Println(locale.Sprintf(locale.VersionInCompatible))
 		return
 	}
-
 	docs, elapsed := input.Parse(cfg.Inputs...)
+	fmt.Printf("%+v\n",docs)
 
 	cfg.Output.Elapsed = elapsed
 	if err := output.Render(docs, cfg.Output); err != nil {

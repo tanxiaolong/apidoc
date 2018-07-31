@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/output/static"
-	"github.com/caixw/apidoc/types"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/output/static"
+	"github.com/tanxiaolong/apidoc/types"
+	"github.com/tanxiaolong/apidoc/vars"
 
 	"github.com/issue9/utils"
 )

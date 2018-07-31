@@ -7,7 +7,7 @@ package locale
 import (
 	"testing"
 
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/vars"
 	"github.com/issue9/assert"
 )
 

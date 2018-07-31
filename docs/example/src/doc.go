@@ -10,7 +10,7 @@ package example
 // @apiLicense MIT https://opensources.org/licenses/MIT
 // @apiContent
 //
-// 这是一份 apidoc 示例文档，对应的源码在 <a href="https://github.com/caixw/apidoc/tree/gh-pages/example/src">src</a> 目录下。
+// 这是一份 apidoc 示例文档，对应的源码在 <a href="https://github.com/tanxiaolong/apidoc/tree/gh-pages/example/src">src</a> 目录下。
 //
 //
 // OPTIONS:

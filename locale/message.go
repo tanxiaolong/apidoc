@@ -4,7 +4,7 @@
 
 package locale
 
-import "github.com/caixw/apidoc/vars"
+import "github.com/tanxiaolong/apidoc/vars"
 
 // 各个语种的语言对照表，通过相应文件的 init() 作初始化这样
 // 在删除文件是，就自动删除相应的语言文件，不需要手修改代码。

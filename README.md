@@ -1,8 +1,8 @@
-apidoc [![Build Status](https://travis-ci.org/caixw/apidoc.svg?branch=master)](https://travis-ci.org/caixw/apidoc)
+apidoc [![Build Status](https://travis-ci.org/tanxiaolong/apidoc.svg?branch=master)](https://travis-ci.org/tanxiaolong/apidoc)
 [![Go version](https://img.shields.io/badge/Go-1.8-brightgreen.svg?style=flat)](https://golang.org)
-[![Go Report Card](https://goreportcard.com/badge/github.com/caixw/apidoc)](https://goreportcard.com/report/github.com/caixw/apidoc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tanxiaolong/apidoc)](https://goreportcard.com/report/github.com/tanxiaolong/apidoc)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/caixw/apidoc/branch/master/graph/badge.svg)](https://codecov.io/gh/caixw/apidoc)
+[![codecov](https://codecov.io/gh/tanxiaolong/apidoc/branch/master/graph/badge.svg)](https://codecov.io/gh/tanxiaolong/apidoc)
 ======
 
 apidoc 是一个简单的 RESTful API 文档生成工具，它从代码注释中提取特定格式的内容，生成文档。
@@ -45,7 +45,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 ### 安装
 
 ```shell
-go get github.com/caixw/apidoc
+go get github.com/tanxiaolong/apidoc
 ```
 
 支持多种本地化语言，默认情况下会根据当前系统所使用的语言进行调整。若需要手动指定，
@@ -85,7 +85,18 @@ if err = output.Render(docs, outputOptions); err != nil {
 
 请阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 文件的相关内容。
 
-
+### 配置文件示例
+```go
+version: 4.0.0+20171125
+inputs:
+    - lang: go
+      dir: /home/tanxiaolong/code/
+      recursive: true
+      title: 用户中心-互动接口文档
+output:
+    dir: /www/vcs-doc
+    type: html
+```
 
 ### 版权
 

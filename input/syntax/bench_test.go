@@ -7,7 +7,7 @@ package syntax
 import (
 	"testing"
 
-	"github.com/caixw/apidoc/types"
+	"github.com/tanxiaolong/apidoc/types"
 	"github.com/issue9/assert"
 )
 

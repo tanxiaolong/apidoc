@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/caixw/apidoc/input/encoding"
-	"github.com/caixw/apidoc/types"
+	"github.com/tanxiaolong/apidoc/input/encoding"
+	"github.com/tanxiaolong/apidoc/types"
 	"github.com/issue9/assert"
 )
 

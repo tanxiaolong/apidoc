@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/caixw/apidoc/types"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/types"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 type page struct {

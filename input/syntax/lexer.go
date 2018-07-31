@@ -7,7 +7,7 @@ package syntax
 import (
 	"unicode"
 
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 // 简单的词法分析

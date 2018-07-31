@@ -12,8 +12,8 @@ import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/caixw/apidoc/locale/syslocale"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/locale/syslocale"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 // 保证有个初始化的值，部分包的测试功能依赖此变量

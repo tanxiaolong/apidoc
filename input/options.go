@@ -13,9 +13,9 @@ import (
 
 	"github.com/issue9/utils"
 
-	"github.com/caixw/apidoc/input/encoding"
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/types"
+	"github.com/tanxiaolong/apidoc/input/encoding"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/types"
 )
 
 // Options 指定输入内容的相关信息。
@@ -29,6 +29,7 @@ type Options struct {
 	Exts            []string `yaml:"exts,omitempty"`            // 需要扫描的文件扩展名，若未指定，则使用默认值
 	Recursive       bool     `yaml:"recursive"`                 // 是否查找 Dir 的子目录
 	Encoding        string   `yaml:"encoding,omitempty"`        // 文件的编码
+	Title           string   `yaml:"title"`                     // template title
 }
 
 // Sanitize 检测 Options 变量是否符合要求

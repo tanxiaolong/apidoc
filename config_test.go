@@ -10,9 +10,9 @@ import (
 
 	"github.com/issue9/assert"
 
-	"github.com/caixw/apidoc/input"
-	"github.com/caixw/apidoc/output"
-	"github.com/caixw/apidoc/types"
+	"github.com/tanxiaolong/apidoc/input"
+	"github.com/tanxiaolong/apidoc/output"
+	"github.com/tanxiaolong/apidoc/types"
 )
 
 func TestConfig_sanitize(t *testing.T) {

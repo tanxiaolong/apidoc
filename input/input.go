@@ -17,11 +17,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/caixw/apidoc/input/encoding"
-	"github.com/caixw/apidoc/input/syntax"
-	"github.com/caixw/apidoc/locale"
-	"github.com/caixw/apidoc/types"
-	"github.com/caixw/apidoc/vars"
+	"github.com/tanxiaolong/apidoc/input/encoding"
+	"github.com/tanxiaolong/apidoc/input/syntax"
+	"github.com/tanxiaolong/apidoc/locale"
+	"github.com/tanxiaolong/apidoc/types"
+	"github.com/tanxiaolong/apidoc/vars"
 )
 
 // 需要解析的最小代码块，小于此值，将不作解析
@@ -83,6 +83,7 @@ func Encodings() []string {
 
 // 分析 path 指向的文件，并将内容写入到 docs 中。
 func parseFile(docs *types.Doc, path string, blocks []blocker, o *Options) {
+	docs.Title = o.Title
 	data, err := encoding.Transform(path, o.Encoding)
 	if err != nil {
 		if o.ErrorLog != nil {

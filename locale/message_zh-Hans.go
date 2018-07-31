@@ -4,7 +4,7 @@
 
 package locale
 
-import "github.com/caixw/apidoc/vars"
+import "github.com/tanxiaolong/apidoc/vars"
 
 func init() {
 	locales["zh-Hans"] = map[string]string{
